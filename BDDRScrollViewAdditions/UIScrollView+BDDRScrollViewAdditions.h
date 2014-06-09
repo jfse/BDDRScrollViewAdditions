@@ -1,10 +1,12 @@
 @class BDDROneFingerZoomGestureRecognizer;
 
+@interface BDDRScrollView : UIScrollView
+@end
 
 /**
  * `UIScrollView` category to center content, enable additional zoom gestures and add getters for animated properties.
  */
-@interface UIScrollView (BDDRScrollViewAdditions)
+@interface BDDRScrollView (BDDRScrollViewAdditions)
 
 /**
  * A Boolean value that determines whether the receiver's content view is centered.

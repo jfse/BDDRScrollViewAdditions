@@ -4,7 +4,10 @@
 #import <objc/runtime.h>
 #import <QuartzCore/QuartzCore.h>
 
-@implementation UIScrollView (BDDRScrollViewAdditions)
+@implementation BDDRScrollView
+@end
+
+@implementation BDDRScrollView (BDDRScrollViewAdditions)
 
 #pragma mark - Method Swizzling
 
